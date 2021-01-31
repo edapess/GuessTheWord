@@ -7,12 +7,6 @@ let randomIndex = questions[Math.floor(Math.random() * questions.length)]
 
 //random category title
 const CATEGORY = createDOM('div',ROOT,'category', `Answer is from "${randomIndex.category}" category`)
-
-//score
-let score = 0
-
-const SCORE = createDOM('div', ROOT,'mistakes','Score')
-
 //creat question line
 const QUESTION = createDOM('p',ROOT,'question',randomIndex.question)
 //create input box for dashes
@@ -46,8 +40,6 @@ for (let i = 0; i < buttons.length; i++) {
         let gues = buttons[i].innerText
         for (let l = 0; l < answerArr.length; l++) {
             if (answerArr[l] === gues) {
-                score++
-                SCORE.innerText =  `Score ${score}`
                 inputArr[l].innerText = `${gues}`
                 buttons[i].disabled = true
 
