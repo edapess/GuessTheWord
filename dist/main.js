@@ -2,9 +2,8 @@ import {createDOM} from './functions.js'
 import {questions} from './questionAnswer.js'
 // get root
 const ROOT = document.getElementById('root')
-//random question array index
+//random question-Object index from array of questions
 let randomIndex = questions[Math.floor(Math.random() * questions.length)]
-
 //random category title
 const CATEGORY = createDOM('div',ROOT,'category', `Answer is from "${randomIndex.category}" category`)
 //creat question line
@@ -22,7 +21,6 @@ alphabet.forEach(letter => {
     let btn = createDOM('button', CONTAINER, 'myBtns', letter)
     btn.innerText = letter
 })
-
 // random answer
 let answer = randomIndex.correct_answer.toLowerCase()
 let answerArr = answer.split('')
