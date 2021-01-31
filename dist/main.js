@@ -57,3 +57,4 @@ for (let i = 0; i < buttons.length; i++) {
         }
     }
 }
+//need You have '987654321' lives with auto
