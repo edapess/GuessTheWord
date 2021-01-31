@@ -7,7 +7,7 @@ export let questions = [{
         "incorrect_answers": [
             "Pilot",
             "Rush",
-            "AC/DC"
+            "ACDC"
         ]
     },
     {
@@ -156,12 +156,12 @@ export let questions = [{
         "category": "Entertainment: Music",
         "type": "multiple",
         "difficulty": "hard",
-        "question": "What is the English title of the vaporwave track 'リサフランク420 / 現代のコンピュー' by Macintosh Plus (Vektroid)?",
-        "correct_answer": "Lisa Frank 420 / Modern Computing",
+        "question": "What is the English title of the vaporwave track 'リサフランク420  現代のコンピュー' by Macintosh Plus (Vektroid)?",
+        "correct_answer": "Lisa Frank 420  Modern Computing",
         "incorrect_answers": [
-            "Smoke Weed 420 / Everyday",
-            "Make Your Move 420 / My Mind",
-            "It's All In Your Head 420 / Understand"
+            "Smoke Weed 420  Everyday",
+            "Make Your Move 420  My Mind",
+            "It's All In Your Head 420  Understand"
         ]
     },
     {
@@ -226,7 +226,7 @@ export let questions = [{
         "category": "Entertainment: Music",
         "type": "multiple",
         "difficulty": "easy",
-        "question": "Which 80s band is fronted by singer/guitarist Robert Smith?",
+        "question": "Which 80s band is fronted by singerguitarist Robert Smith?",
         "correct_answer": "The Cure",
         "incorrect_answers": [
             "The Smiths",
@@ -612,7 +612,7 @@ export let questions = [{
         "category": "Entertainment: Video Games",
         "type": "multiple",
         "difficulty": "easy",
-        "question": "Which of these levels does NOT appear in the console/PC versions of the game 'Sonic Generations'?",
+        "question": "Which of these levels does NOT appear in the consolePC versions of the game 'Sonic Generations'?",
         "correct_answer": "Mushroom Hill",
         "incorrect_answers": [
             "City Escape",
@@ -2463,11 +2463,11 @@ export let questions = [{
         "type": "multiple",
         "difficulty": "medium",
         "question": "In HTML, which non standard tag used to be be used to make elements scroll across the viewport?",
-        "correct_answer": "<marquee></marquee>",
+        "correct_answer": "<marquee><marquee>",
         "incorrect_answers": [
-            "<scroll></scroll>",
-            "<move></move>",
-            "<slide></slide>"
+            "<scroll><scroll>",
+            "<move><move>",
+            "<slide><slide>"
         ]
     },
     {
@@ -2519,11 +2519,11 @@ export let questions = [{
         "type": "multiple",
         "difficulty": "medium",
         "question": "How fast is USB 31 Gen 2 theoretically?",
-        "correct_answer": "10 Gb/s",
+        "correct_answer": "10 Gbs",
         "incorrect_answers": [
-            "5 Gb/s",
-            "8 Gb/s",
-            "1 Gb/s"
+            "5 Gbs",
+            "8 Gbs",
+            "1 Gbs"
         ]
     },
     {
@@ -2602,7 +2602,7 @@ export let questions = [{
         "category": "Science: Computers",
         "type": "multiple",
         "difficulty": "medium",
-        "question": "What is the main CPU is the Sega Mega Drive / Sega Genesis?",
+        "question": "What is the main CPU is the Sega Mega Drive  Sega Genesis?",
         "correct_answer": "Motorola 68000",
         "incorrect_answers": [
             "Zilog Z80",
@@ -3022,7 +3022,7 @@ export let questions = [{
         "category": "Science: Mathematics",
         "type": "boolean",
         "difficulty": "hard",
-        "question": "If you could fold a piece of paper in half 50 times, its' thickness will be 3/4th the distance from the Earth to the Sun",
+        "question": "If you could fold a piece of paper in half 50 times, its' thickness will be 34th the distance from the Earth to the Sun",
         "correct_answer": "True",
         "incorrect_answers": [
             "False"
@@ -3386,7 +3386,7 @@ export let questions = [{
         "category": "Mythology",
         "type": "multiple",
         "difficulty": "medium",
-        "question": "This Greek mythological figure is the god/goddess of battle strategy (among other things)",
+        "question": "This Greek mythological figure is the godgoddess of battle strategy (among other things)",
         "correct_answer": "Athena",
         "incorrect_answers": [
             "Ares",
@@ -3860,7 +3860,7 @@ export let questions = [{
         "category": "Mythology",
         "type": "multiple",
         "difficulty": "medium",
-        "question": "Which greek god/goddess tossed a golden apple with the words 'for the fairest' into the middle of the feast of the gods?",
+        "question": "Which greek godgoddess tossed a golden apple with the words 'for the fairest' into the middle of the feast of the gods?",
         "correct_answer": "Eris",
         "incorrect_answers": [
             "Hades",
@@ -5052,7 +5052,7 @@ export let questions = [{
         "category": "Politics",
         "type": "multiple",
         "difficulty": "hard",
-        "question": "Which Native American tribe/nation requires at least one half blood quantum (equivalent to one parent) to be eligible for membership?",
+        "question": "Which Native American tribenation requires at least one half blood quantum (equivalent to one parent) to be eligible for membership?",
         "correct_answer": "Yomba Shoshone Tribe",
         "incorrect_answers": [
             "Standing Rock Sioux Tribe",
@@ -6186,7 +6186,7 @@ export let questions = [{
         "category": "Animals",
         "type": "multiple",
         "difficulty": "medium",
-        "question": "What color/colour is a polar bear's skin?",
+        "question": "What colorcolour is a polar bear's skin?",
         "correct_answer": "Black",
         "incorrect_answers": [
             "White",
@@ -6643,7 +6643,7 @@ export let questions = [{
         "category": "Vehicles",
         "type": "multiple",
         "difficulty": "medium",
-        "question": "What part of an automobile engine uses lobes to open and close intake and exhaust valves, and allows an air/fuel mixture into the engine?",
+        "question": "What part of an automobile engine uses lobes to open and close intake and exhaust valves, and allows an airfuel mixture into the engine?",
         "correct_answer": "Camshaft",
         "incorrect_answers": [
             "Piston",
@@ -8122,7 +8122,7 @@ export let questions = [{
         "incorrect_answers": [
             "Loaded",
             "The Velvet Underground",
-            "White Light / White Heat"
+            "White Light  White Heat"
         ]
     },
     {
@@ -9128,7 +9128,7 @@ export let questions = [{
         "incorrect_answers": [
             "Cray X MP",
             "Cray XK7",
-            "IBM Blue Gene/Q"
+            "IBM Blue GeneQ"
         ]
     },
     {
