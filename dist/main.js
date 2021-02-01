@@ -1,6 +1,6 @@
 import {
     createDOM
-} from './functions.js'
+} from './creatDOM.js'
 import {
     questions
 } from './questionAnswer.js'
@@ -37,7 +37,11 @@ let inputArr = Array.from(document.querySelectorAll('.input')).map((v) => v)
 //get btns add listener
 let buttons = document.querySelectorAll('.myBtns')
 let livesCount = 10
-let lives = createDOM('p', ROOT, 'lives',`${livesCount}` )
+let lives = createDOM('p', ROOT, 'lives',`` )
+//need You have '987654321' lives with auto
+let comments = () => {
+    console.log(INPUT_BOX.innerText);
+}
 //on click
 for (let i = 0; i < buttons.length; i++) {
     buttons[i].onclick = () => {
@@ -47,7 +51,7 @@ for (let i = 0; i < buttons.length; i++) {
                 inputArr[l].innerText = `${gues}`
                 buttons[i].disabled = true
                 if(!INPUT_BOX.innerText.includes('_')){
-                    
+                    comments()
                 }
             } else {
                 buttons[i].disabled = true
@@ -56,4 +60,3 @@ for (let i = 0; i < buttons.length; i++) {
         }
     }
 }
-//need You have '987654321' lives with auto
