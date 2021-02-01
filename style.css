@@ -104,3 +104,11 @@
     top: 10px;
     display:flex;
 }
+.lives{
+    text-align: center;
+    font-family: 'Yusei Magic', sans-serif;
+    color: var(--white);
+    font-size: 20px;
+    height: auto;
+    width: 100%;
+}

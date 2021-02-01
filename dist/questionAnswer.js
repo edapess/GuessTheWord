@@ -3777,7 +3777,7 @@ export let questions = [{
         "type": "multiple",
         "difficulty": "medium",
         "question": "Who is the god of war in Polynesian mythology?",
-        "correct_answer": "'Oro",
+        "correct_answer": "Oro",
         "incorrect_answers": [
             "Hina",
             "Kohara",
