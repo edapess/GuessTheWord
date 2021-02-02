@@ -132,18 +132,6 @@ export let questions = [{
         "category": "Entertainment: Music",
         "type": "multiple",
         "difficulty": "hard",
-        "question": "Which of these is NOT a song featured on the Lockjaw EP released in 2013 by Flume & Chet Faker?",
-        "correct_answer": "Left Alone",
-        "incorrect_answers": [
-            "What About Us",
-            "This Song Is Not About A Girl",
-            "Drop The Game"
-        ]
-    },
-    {
-        "category": "Entertainment: Music",
-        "type": "multiple",
-        "difficulty": "hard",
         "question": "Which Death Grips album is the only one to feature a band member?",
         "correct_answer": "No Love Deep Web",
         "incorrect_answers": [
@@ -174,18 +162,6 @@ export let questions = [{
             "Wish You Were Here",
             "Have A Cigar",
             "Welcome to the Machine"
-        ]
-    },
-    {
-        "category": "Entertainment: Music",
-        "type": "multiple",
-        "difficulty": "easy",
-        "question": "Which Beatles album does NOT feature any of the band members on it's cover?",
-        "correct_answer": "The Beatles (White Album)",
-        "incorrect_answers": [
-            "Rubber Soul",
-            "Abbey Road",
-            "Magical Mystery Tour"
         ]
     },
     {
@@ -351,18 +327,6 @@ export let questions = [{
     {
         "category": "Entertainment: Music",
         "type": "multiple",
-        "difficulty": "medium",
-        "question": "Which of these is NOT a song by Pegboard Nerds?",
-        "correct_answer": "WiFi Tears",
-        "incorrect_answers": [
-            "Swamp Thing",
-            "Emoji",
-            "BAMF"
-        ]
-    },
-    {
-        "category": "Entertainment: Music",
-        "type": "multiple",
         "difficulty": "hard",
         "question": "What year was Min Yoongi from South Korea boy band 'BTS' born in?",
         "correct_answer": "1993",
@@ -387,18 +351,6 @@ export let questions = [{
     {
         "category": "Entertainment: Music",
         "type": "multiple",
-        "difficulty": "medium",
-        "question": "Moby, an American DJ, singer, and musician, achieved worldwide success for the 1999 release of which of the following albums?",
-        "correct_answer": "Play",
-        "incorrect_answers": [
-            "Everything Is Wrong",
-            "Moby",
-            "18"
-        ]
-    },
-    {
-        "category": "Entertainment: Music",
-        "type": "multiple",
         "difficulty": "hard",
         "question": "What is the stage name of New Zealand singer Phillipa 'Pip' Brown?",
         "correct_answer": "Ladyhawke",
@@ -412,7 +364,7 @@ export let questions = [{
         "category": "Entertainment: Music",
         "type": "multiple",
         "difficulty": "medium",
-        "question": "Which of the following guitarists recorded an album as a member of the Red Hot Chili Peppers?",
+        "question": "Which guitarist recorded an album as a member of the Red Hot Chili Peppers?",
         "correct_answer": "Dave Navarro",
         "incorrect_answers": [
             "Tom Morello ",
@@ -528,11 +480,10 @@ export let questions = [{
         "category": "Entertainment: Music",
         "type": "multiple",
         "difficulty": "medium",
-        "question": "Which of these is not a member of the virtual band Gorillaz?",
-        "correct_answer": "Phi Cypher",
+        "question": "Member of the virtual band Gorillaz?",
+        "correct_answer": "Noodle",
         "incorrect_answers": [
             "Murdoc Niccals",
-            "Noodle",
             "Russel Hobbs"
         ]
     },
@@ -576,18 +527,6 @@ export let questions = [{
         "category": "Entertainment: Video Games",
         "type": "multiple",
         "difficulty": "easy",
-        "question": "Which of these is NOT a player class in Team Fortress 2?",
-        "correct_answer": "Healer",
-        "incorrect_answers": [
-            "Demoman",
-            "Pyro",
-            "Spy"
-        ]
-    },
-    {
-        "category": "Entertainment: Video Games",
-        "type": "multiple",
-        "difficulty": "easy",
         "question": "Who is the writer of the game 'Half Life'?",
         "correct_answer": "Marc Laidlaw",
         "incorrect_answers": [
@@ -611,54 +550,6 @@ export let questions = [{
     {
         "category": "Entertainment: Video Games",
         "type": "multiple",
-        "difficulty": "easy",
-        "question": "Which of these levels does NOT appear in the consolePC versions of the game 'Sonic Generations'?",
-        "correct_answer": "Mushroom Hill",
-        "incorrect_answers": [
-            "City Escape",
-            "Planet Wisp",
-            "Sky Sanctuary"
-        ]
-    },
-    {
-        "category": "Entertainment: Video Games",
-        "type": "multiple",
-        "difficulty": "medium",
-        "question": "Which of the following is NOT an official game in Nintendo's Super Smash Bros series?",
-        "correct_answer": "Super Smash Bros Crusade",
-        "incorrect_answers": [
-            "Super Smash Bros Melee",
-            "Super Smash Bros Brawl",
-            "Super Smash Bros for Nintendo 3DS and Wii U"
-        ]
-    },
-    {
-        "category": "Entertainment: Video Games",
-        "type": "multiple",
-        "difficulty": "hard",
-        "question": "Which of these characters in 'Undertale' can the player NOT go on a date with?",
-        "correct_answer": "Toriel",
-        "incorrect_answers": [
-            "Papyrus",
-            "Undyne",
-            "Alphys"
-        ]
-    },
-    {
-        "category": "Entertainment: Video Games",
-        "type": "multiple",
-        "difficulty": "hard",
-        "question": "Which of the following commercial vehicles from Grand Theft Auto IV did NOT reappear in Grand Theft Auto V?",
-        "correct_answer": "Steed",
-        "incorrect_answers": [
-            "Mule",
-            "Benson",
-            "Pony"
-        ]
-    },
-    {
-        "category": "Entertainment: Video Games",
-        "type": "multiple",
         "difficulty": "hard",
         "question": "In the Gamecube Version of 'Resident Evil' what text document is open on the monitor of the computer in the Visual Data Room?",
         "correct_answer": "A GDC Document",
@@ -676,18 +567,6 @@ export let questions = [{
         "correct_answer": "True",
         "incorrect_answers": [
             "False"
-        ]
-    },
-    {
-        "category": "Entertainment: Video Games",
-        "type": "multiple",
-        "difficulty": "easy",
-        "question": "Which of these is NOT a team available in the game Pok&eacute;mon Go?",
-        "correct_answer": "Team Rocket",
-        "incorrect_answers": [
-            "Team Instinct",
-            "Team Valor",
-            "Team Mystic"
         ]
     },
     {
@@ -825,18 +704,6 @@ export let questions = [{
     {
         "category": "Entertainment: Video Games",
         "type": "multiple",
-        "difficulty": "easy",
-        "question": "Which of these is NOT a Humongous Entertainment game franchise?",
-        "correct_answer": "Commander Keen",
-        "incorrect_answers": [
-            "Pajama Sam",
-            "Putt Putt",
-            "Freddi Fish"
-        ]
-    },
-    {
-        "category": "Entertainment: Video Games",
-        "type": "multiple",
         "difficulty": "medium",
         "question": "In the 2015 RPG 'Undertale', which character do you first encounter after falling down into the underground?",
         "correct_answer": "Flowey",
@@ -861,30 +728,6 @@ export let questions = [{
     {
         "category": "Entertainment: Video Games",
         "type": "multiple",
-        "difficulty": "hard",
-        "question": "Which of these Pok&eacute;mon cannot learn Surf?",
-        "correct_answer": "Arbok",
-        "incorrect_answers": [
-            "Linoone",
-            "Tauros",
-            "Nidoking"
-        ]
-    },
-    {
-        "category": "Entertainment: Video Games",
-        "type": "multiple",
-        "difficulty": "medium",
-        "question": "In the first Left 4 Dead, you can play as either of these four characters",
-        "correct_answer": "Francis, Bill, Zoey, and Louis",
-        "incorrect_answers": [
-            "Bender, Andrew, Allison, and Brian",
-            "Coach, Ellis, Nick, and Rochelle",
-            "Harry, Ron, Hermione and Dumbledore"
-        ]
-    },
-    {
-        "category": "Entertainment: Video Games",
-        "type": "multiple",
         "difficulty": "medium",
         "question": "In Hitman: Blood Money, what is the name of the target in the mission 'Death of a Showman'?",
         "correct_answer": "Joseph Clarence",
@@ -892,18 +735,6 @@ export let questions = [{
             "The Swing King",
             "Maynard John",
             "Manuel Delgado"
-        ]
-    },
-    {
-        "category": "Entertainment: Video Games",
-        "type": "multiple",
-        "difficulty": "medium",
-        "question": "What is not a default game mode in Counter Strike (2000)?",
-        "correct_answer": "Arms Race",
-        "incorrect_answers": [
-            "Hostage Rescue",
-            "Bomb Defusal",
-            "Assassination"
         ]
     },
     {
@@ -1017,18 +848,6 @@ export let questions = [{
     {
         "category": "Entertainment: Video Games",
         "type": "multiple",
-        "difficulty": "medium",
-        "question": "Which of these is NOT a name of a city in the main island of PLAYERUNKNOWN'S BATTLEGROUNDS?",
-        "correct_answer": "Belushya Guba",
-        "incorrect_answers": [
-            "Yasnaya Polyana",
-            "Pochinki",
-            "Georgopol"
-        ]
-    },
-    {
-        "category": "Entertainment: Video Games",
-        "type": "multiple",
         "difficulty": "easy",
         "question": "What were the first two blocks in 'Minecraft'?",
         "correct_answer": "Grass and Cobblestone",
@@ -1072,18 +891,6 @@ export let questions = [{
             "Novorepnoye",
             "Mylta",
             "Yasnaya"
-        ]
-    },
-    {
-        "category": "Entertainment: Video Games",
-        "type": "multiple",
-        "difficulty": "medium",
-        "question": " Which of these champions from the MOBA 'League of Legends' is NOT a Yordle?",
-        "correct_answer": "Annie",
-        "incorrect_answers": [
-            "Veigar",
-            "Tristana",
-            "Lulu"
         ]
     },
     {
@@ -1276,18 +1083,6 @@ export let questions = [{
     },
     {
         "category": "Entertainment: Board Games",
-        "type": "multiple",
-        "difficulty": "easy",
-        "question": "Which of these games includes the phrase 'Do not pass Go, do not collect $200'?",
-        "correct_answer": "Monopoly",
-        "incorrect_answers": [
-            "Pay Day",
-            "Cluedo",
-            "Coppit"
-        ]
-    },
-    {
-        "category": "Entertainment: Board Games",
         "type": "boolean",
         "difficulty": "easy",
         "question": "The card game 'Munchkin' won the 2001 Origins Award for Best Traditional Card Game",
@@ -1301,16 +1096,6 @@ export let questions = [{
         "type": "boolean",
         "difficulty": "easy",
         "question": "The Angry Video Game Nerd's alter ego is 'Board James'",
-        "correct_answer": "True",
-        "incorrect_answers": [
-            "False"
-        ]
-    },
-    {
-        "category": "Entertainment: Board Games",
-        "type": "boolean",
-        "difficulty": "easy",
-        "question": "There is a Donald Trump Board Game, which was made in 1989",
         "correct_answer": "True",
         "incorrect_answers": [
             "False"
@@ -1338,18 +1123,6 @@ export let questions = [{
             "$30",
             "$50",
             "$45"
-        ]
-    },
-    {
-        "category": "Entertainment: Board Games",
-        "type": "multiple",
-        "difficulty": "easy",
-        "question": "Which one of these is not a real game in the Dungeons & Dragons series?",
-        "correct_answer": "Extreme Dungeons & Dragons",
-        "incorrect_answers": [
-            "Advanced Dungeons & Dragons",
-            "Dungeons & Dragons 35th edition",
-            "Advanced Dungeons & Dragons 2nd edition"
         ]
     },
     {
@@ -1410,18 +1183,6 @@ export let questions = [{
             "Activate a Spell and Send Monsters to the Graveyard",
             "Add the Monsters' Levels Together to Match the Xyz Monster",
             "Banish A Number of Monsters From Your Hand And Deck"
-        ]
-    },
-    {
-        "category": "Entertainment: Board Games",
-        "type": "multiple",
-        "difficulty": "medium",
-        "question": "Which of the following tabletop games is the oldest?",
-        "correct_answer": "Go",
-        "incorrect_answers": [
-            "Chess",
-            "Mahjong",
-            "Shogi"
         ]
     },
     {
@@ -1544,48 +1305,12 @@ export let questions = [{
         "category": "Entertainment: Board Games",
         "type": "multiple",
         "difficulty": "hard",
-        "question": "Which of these cards from 'Magic: The Gathering' has a flavor text that begins with 'Oi oi oi'?",
-        "correct_answer": "Uthden Troll",
-        "incorrect_answers": [
-            "Lotleth Troll",
-            "Albino Troll",
-            "Harvester Troll"
-        ]
-    },
-    {
-        "category": "Entertainment: Board Games",
-        "type": "multiple",
-        "difficulty": "hard",
         "question": "In Magic: The Gathering, what was a tribute card to Jamie Wakefield's late wife Marilyn, who loved horses?",
         "correct_answer": "Timbermare",
         "incorrect_answers": [
             "Loyal Pegasus",
             "Vryn Wingmare",
             "Sungrace Pegasus"
-        ]
-    },
-    {
-        "category": "Entertainment: Board Games",
-        "type": "multiple",
-        "difficulty": "hard",
-        "question": "When Magic: The Gathering was first solicited, which of the following was it originally titled?",
-        "correct_answer": "Mana Clash",
-        "incorrect_answers": [
-            "Magic",
-            "Magic Clash",
-            "Mana Duels"
-        ]
-    },
-    {
-        "category": "Entertainment: Board Games",
-        "type": "multiple",
-        "difficulty": "hard",
-        "question": "In Magic: The Gathering, which of the following was the first publicly released foil card?",
-        "correct_answer": "Lightning Dragon",
-        "incorrect_answers": [
-            "Revenant",
-            "Beast of Burden",
-            "Dirtcowl Wurm"
         ]
     },
     {
@@ -1884,18 +1609,7 @@ export let questions = [{
             "11"
         ]
     },
-    {
-        "category": "Science & Nature",
-        "type": "multiple",
-        "difficulty": "medium",
-        "question": "Which of these is NOT a part of the structure of a typical neuron?",
-        "correct_answer": "Islets of Langerhans",
-        "incorrect_answers": [
-            "Node of Ranvier",
-            "Schwann cell",
-            "Myelin sheath"
-        ]
-    },
+   
     {
         "category": "Science & Nature",
         "type": "multiple",
@@ -1921,18 +1635,6 @@ export let questions = [{
     {
         "category": "Science & Nature",
         "type": "multiple",
-        "difficulty": "easy",
-        "question": "The element involved in making human blood red is which of the following?",
-        "correct_answer": "Iron",
-        "incorrect_answers": [
-            "Copper",
-            "Iridium",
-            "Cobalt"
-        ]
-    },
-    {
-        "category": "Science & Nature",
-        "type": "multiple",
         "difficulty": "medium",
         "question": "Myopia is the scientific term for which condition?",
         "correct_answer": "Shortsightedness",
@@ -1952,18 +1654,6 @@ export let questions = [{
             "The overall size",
             "The presence or absence of certain organelles",
             "The mode of reproduction"
-        ]
-    },
-    {
-        "category": "Science & Nature",
-        "type": "multiple",
-        "difficulty": "hard",
-        "question": "Which of these is a stop codon in DNA?",
-        "correct_answer": "TAA",
-        "incorrect_answers": [
-            "ACT",
-            "ACA",
-            "GTA"
         ]
     },
     {
@@ -2090,18 +1780,6 @@ export let questions = [{
         "category": "Science & Nature",
         "type": "multiple",
         "difficulty": "medium",
-        "question": "Which of the following men does not have a chemical element named after him?",
-        "correct_answer": "Sir Isaac Newton",
-        "incorrect_answers": [
-            "Albert Einstein",
-            "Niels Bohr",
-            "Enrico Fermi"
-        ]
-    },
-    {
-        "category": "Science & Nature",
-        "type": "multiple",
-        "difficulty": "medium",
         "question": "What is the half life of Uranium 235?",
         "correct_answer": "703,800,000 years",
         "incorrect_answers": [
@@ -2171,18 +1849,6 @@ export let questions = [{
     {
         "category": "Science & Nature",
         "type": "multiple",
-        "difficulty": "medium",
-        "question": "Which of these choices is not one of the phases of mitosis?",
-        "correct_answer": "Diplophase",
-        "incorrect_answers": [
-            "Metaphase",
-            "Anaphase",
-            "Telophase"
-        ]
-    },
-    {
-        "category": "Science & Nature",
-        "type": "multiple",
         "difficulty": "hard",
         "question": "Which major extinction event was caused by an asteroid collision and eliminated the majority of non avian dinosaurs?",
         "correct_answer": "Cretaceous Paleogene",
@@ -2190,18 +1856,6 @@ export let questions = [{
             "Triassic&ndash;Jurassic",
             "Permian&ndash;Triassic",
             "Ordovician&ndash;Silurian"
-        ]
-    },
-    {
-        "category": "Science & Nature",
-        "type": "multiple",
-        "difficulty": "medium",
-        "question": "Which of the following is NOT a passive electrical component?",
-        "correct_answer": "Transistor",
-        "incorrect_answers": [
-            "Resistor",
-            "Capacitor",
-            "Inductor"
         ]
     },
     {
@@ -2316,18 +1970,6 @@ export let questions = [{
             "Hard Disk Drive",
             "Central Processing Unit",
             "Graphics Processing Unit"
-        ]
-    },
-    {
-        "category": "Science: Computers",
-        "type": "multiple",
-        "difficulty": "easy",
-        "question": "In the programming language Java, which of these keywords would you put on a variable to make sure it doesn't get modified?",
-        "correct_answer": "Final",
-        "incorrect_answers": [
-            "Static",
-            "Private",
-            "Public"
         ]
     },
     {
@@ -2461,30 +2103,6 @@ export let questions = [{
     {
         "category": "Science: Computers",
         "type": "multiple",
-        "difficulty": "medium",
-        "question": "In HTML, which non standard tag used to be be used to make elements scroll across the viewport?",
-        "correct_answer": "<marquee><marquee>",
-        "incorrect_answers": [
-            "<scroll><scroll>",
-            "<move><move>",
-            "<slide><slide>"
-        ]
-    },
-    {
-        "category": "Science: Computers",
-        "type": "multiple",
-        "difficulty": "medium",
-        "question": "In CSS, which of these values CANNOT be used with the 'position' property?",
-        "correct_answer": "center",
-        "incorrect_answers": [
-            "static",
-            "absolute",
-            "relative"
-        ]
-    },
-    {
-        "category": "Science: Computers",
-        "type": "multiple",
         "difficulty": "easy",
         "question": "What does LTS stand for in the software market?",
         "correct_answer": "Long Term Support",
@@ -2554,48 +2172,12 @@ export let questions = [{
         "category": "Science: Computers",
         "type": "multiple",
         "difficulty": "hard",
-        "question": "Which of the following is the oldest of these computers by release date?",
-        "correct_answer": "TRS 80",
-        "incorrect_answers": [
-            "Commodore 64",
-            "ZX Spectrum",
-            "Apple 3"
-        ]
-    },
-    {
-        "category": "Science: Computers",
-        "type": "multiple",
-        "difficulty": "hard",
-        "question": "America Online (AOL) started out as which of these online service providers?",
-        "correct_answer": "Quantum Link",
-        "incorrect_answers": [
-            "CompuServe",
-            "Prodigy",
-            "GEnie"
-        ]
-    },
-    {
-        "category": "Science: Computers",
-        "type": "multiple",
-        "difficulty": "hard",
         "question": "What internet protocol was documented in RFC 1459?",
         "correct_answer": "IRC",
         "incorrect_answers": [
             "HTTP",
             "HTTPS",
             "FTP"
-        ]
-    },
-    {
-        "category": "Science: Computers",
-        "type": "multiple",
-        "difficulty": "hard",
-        "question": "Which of these is not a key value of Agile software development?",
-        "correct_answer": "Comprehensive documentation",
-        "incorrect_answers": [
-            "Individuals and interactions",
-            "Customer collaboration",
-            "Responding to change"
         ]
     },
     {
@@ -2762,18 +2344,6 @@ export let questions = [{
             "Midnight, July 4, 1976",
             "Midnight on the creator of Unix's birthday",
             "Midnight, July 4, 1980"
-        ]
-    },
-    {
-        "category": "Science: Computers",
-        "type": "multiple",
-        "difficulty": "hard",
-        "question": "Which of these Cherry MX mechanical keyboard switches is both tactile and clicky?",
-        "correct_answer": "Cherry MX Blue",
-        "incorrect_answers": [
-            "Cherry MX Black",
-            "Cherry MX Red",
-            "Cherry MX Brown"
         ]
     },
     {
@@ -3253,18 +2823,6 @@ export let questions = [{
     {
         "category": "Science: Mathematics",
         "type": "multiple",
-        "difficulty": "hard",
-        "question": "Which of these numbers is closest to the total number of possible states for an army standard Enigma Machine?",
-        "correct_answer": "158 x 10^20",
-        "incorrect_answers": [
-            "158 x 10^22",
-            "158 x  10^18",
-            "158 x 10^24"
-        ]
-    },
-    {
-        "category": "Science: Mathematics",
-        "type": "multiple",
         "difficulty": "medium",
         "question": "Which greek mathematician ran through the streets of Syracuse naked while shouting 'Eureka' after discovering the principle of displacement?",
         "correct_answer": "Archimedes",
@@ -3277,18 +2835,6 @@ export let questions = [{
     {
         "category": "Science: Mathematics",
         "type": "multiple",
-        "difficulty": "hard",
-        "question": "Which of the following famous mathematicians died in a duel at the age of 20?",
-        "correct_answer": "Galois",
-        "incorrect_answers": [
-            "Abel",
-            "Euler",
-            "Gauss"
-        ]
-    },
-    {
-        "category": "Science: Mathematics",
-        "type": "multiple",
         "difficulty": "medium",
         "question": "How many books are in Euclid's Elements of Geometry?",
         "correct_answer": "13",
@@ -3296,42 +2842,6 @@ export let questions = [{
             "8",
             "10",
             "17"
-        ]
-    },
-    {
-        "category": "Science: Mathematics",
-        "type": "multiple",
-        "difficulty": "medium",
-        "question": "Which of the following dice is not a platonic solid?",
-        "correct_answer": "10 sided die",
-        "incorrect_answers": [
-            "12 sided die",
-            "20 sided die",
-            "8 sided die"
-        ]
-    },
-    {
-        "category": "Science: Mathematics",
-        "type": "multiple",
-        "difficulty": "hard",
-        "question": "Which of the following mathematicians made major contributions to game theory?",
-        "correct_answer": "John Von Neumann",
-        "incorrect_answers": [
-            "Carl Friedrich Gauss",
-            "Leonhard Euler",
-            "Stefan Banach"
-        ]
-    },
-    {
-        "category": "Mythology",
-        "type": "multiple",
-        "difficulty": "hard",
-        "question": "Talos, the mythical giant bronze man, was the protector of which island?",
-        "correct_answer": "Crete",
-        "incorrect_answers": [
-            "Sardinia",
-            "Sicily",
-            "Cyprus"
         ]
     },
     {
@@ -3368,18 +2878,6 @@ export let questions = [{
             "Demeter",
             "Zeus",
             "Athena"
-        ]
-    },
-    {
-        "category": "Mythology",
-        "type": "multiple",
-        "difficulty": "easy",
-        "question": "The ancient Roman god of war was commonly known as which of the following?",
-        "correct_answer": "Mars",
-        "incorrect_answers": [
-            "Jupiter",
-            "Juno",
-            "Ares"
         ]
     },
     {
@@ -3467,18 +2965,6 @@ export let questions = [{
     {
         "category": "Mythology",
         "type": "multiple",
-        "difficulty": "medium",
-        "question": "Which of the following Mesopotamian mythological figures was NOT a deity?",
-        "correct_answer": "Enkidu",
-        "incorrect_answers": [
-            "Enki",
-            "Enlil",
-            "Enkimdu"
-        ]
-    },
-    {
-        "category": "Mythology",
-        "type": "multiple",
         "difficulty": "easy",
         "question": "This Greek goddess's name was chosen for the dwarf planet responsible for discord on Pluto's classification amongst astronomers",
         "correct_answer": "Eris",
@@ -3544,18 +3030,6 @@ export let questions = [{
     },
     {
         "category": "Mythology",
-        "type": "multiple",
-        "difficulty": "medium",
-        "question": "Which of these Roman gods doesn't have a counterpart in Greek mythology?",
-        "correct_answer": "Janus",
-        "incorrect_answers": [
-            "Vulcan",
-            "Juno",
-            "Mars"
-        ]
-    },
-    {
-        "category": "Mythology",
         "type": "boolean",
         "difficulty": "hard",
         "question": "Rannamaari was a sea demon that haunted the people of the Maldives and had to be appeased monthly with the sacrifice of a virgin girl",
@@ -3586,18 +3060,6 @@ export let questions = [{
             "War",
             "Sun",
             "Fire"
-        ]
-    },
-    {
-        "category": "Mythology",
-        "type": "multiple",
-        "difficulty": "hard",
-        "question": "Which of the following is NOT a god in Norse Mythology",
-        "correct_answer": "Jens",
-        "incorrect_answers": [
-            "Loki",
-            "Tyr",
-            "Snotra"
         ]
     },
     {
@@ -3712,30 +3174,6 @@ export let questions = [{
         "correct_answer": "True",
         "incorrect_answers": [
             "False"
-        ]
-    },
-    {
-        "category": "Mythology",
-        "type": "multiple",
-        "difficulty": "easy",
-        "question": "Which of these mythological creatures is said to be half man and half horse?",
-        "correct_answer": "Centaur",
-        "incorrect_answers": [
-            "Minotaur",
-            "Pegasus",
-            "Gorgon"
-        ]
-    },
-    {
-        "category": "Mythology",
-        "type": "multiple",
-        "difficulty": "medium",
-        "question": "Which of the following is not one of the Greek Fates?",
-        "correct_answer": "Narcissus",
-        "incorrect_answers": [
-            "Clotho",
-            "Atropos",
-            "Lachesis"
         ]
     },
     {
@@ -4149,18 +3587,6 @@ export let questions = [{
     {
         "category": "Sports",
         "type": "multiple",
-        "difficulty": "medium",
-        "question": "In Formula 1, the Virtual Safety Car was introduced following the fatal crash of which driver?",
-        "correct_answer": "Jules Bianchi",
-        "incorrect_answers": [
-            "Ayrton Senna",
-            "Ronald Ratzenberger",
-            "Gilles Villeneuve"
-        ]
-    },
-    {
-        "category": "Sports",
-        "type": "multiple",
         "difficulty": "easy",
         "question": "This Canadian television sportscaster is known for his 'Hockey Night in Canada' role, a commentary show during hockey games",
         "correct_answer": "Don Cherry",
@@ -4346,18 +3772,7 @@ export let questions = [{
             "David Beckham"
         ]
     },
-    {
-        "category": "Sports",
-        "type": "multiple",
-        "difficulty": "easy",
-        "question": "Who won the premier league title in the 2015 2016 season following a fairy tale run?",
-        "correct_answer": "Leicester City",
-        "incorrect_answers": [
-            "Tottenham Hotspur",
-            "Watford",
-            "Stoke City"
-        ]
-    },
+   
     {
         "category": "Sports",
         "type": "multiple",
@@ -4460,30 +3875,6 @@ export let questions = [{
             "1806",
             "1810",
             "1809"
-        ]
-    },
-    {
-        "category": "History",
-        "type": "multiple",
-        "difficulty": "hard",
-        "question": "List the following Iranic empires in chronological order:",
-        "correct_answer": "Median, Achaemenid, Parthian, Sassanid",
-        "incorrect_answers": [
-            "Median, Achaemenid, Sassanid, Parthian",
-            "Achaemenid, Median, Parthian, Sassanid",
-            "Achaemenid, Median, Sassanid, Parthian"
-        ]
-    },
-    {
-        "category": "History",
-        "type": "multiple",
-        "difficulty": "easy",
-        "question": "The original Roman alphabet lacked the following letters EXCEPT:",
-        "correct_answer": "X",
-        "incorrect_answers": [
-            "W",
-            "U",
-            "J"
         ]
     },
     {
@@ -4634,8 +4025,8 @@ export let questions = [{
         "category": "History",
         "type": "multiple",
         "difficulty": "medium",
-        "question": "Which Nation DID NOT have a Colony in Modern day America?",
-        "correct_answer": "Portugal",
+        "question": "Which Nation have a Colony in Modern day America?",
+        "correct_answer": "Spain",
         "incorrect_answers": [
             "Spain",
             "Sweden",
@@ -4878,18 +4269,6 @@ export let questions = [{
     },
     {
         "category": "History",
-        "type": "multiple",
-        "difficulty": "medium",
-        "question": "Which of these 1900s tanks were designed and built BEFORE the others?",
-        "correct_answer": "Renault FT",
-        "incorrect_answers": [
-            "M4 Sherman",
-            " Panzer IV",
-            "Cromwell "
-        ]
-    },
-    {
-        "category": "History",
         "type": "boolean",
         "difficulty": "hard",
         "question": "The man that shot Alexander Hamilton was named Aaron Burr",
@@ -5039,18 +4418,6 @@ export let questions = [{
     {
         "category": "Politics",
         "type": "multiple",
-        "difficulty": "easy",
-        "question": "Which of the following Pacific Islander countries is ruled by a constitutional monarchy?",
-        "correct_answer": "Tonga",
-        "incorrect_answers": [
-            "Palau",
-            "Fiji",
-            "Kiribati"
-        ]
-    },
-    {
-        "category": "Politics",
-        "type": "multiple",
         "difficulty": "hard",
         "question": "Which Native American tribenation requires at least one half blood quantum (equivalent to one parent) to be eligible for membership?",
         "correct_answer": "Yomba Shoshone Tribe",
@@ -5193,18 +4560,6 @@ export let questions = [{
     {
         "category": "Politics",
         "type": "multiple",
-        "difficulty": "hard",
-        "question": "Which of the following United States Presidents served the shortest term in office?",
-        "correct_answer": "William Henry Harrison",
-        "incorrect_answers": [
-            "Zachary Taylor",
-            "James A Garfield",
-            "Warren G Harding"
-        ]
-    },
-    {
-        "category": "Politics",
-        "type": "multiple",
         "difficulty": "easy",
         "question": "Who was the 45th President of the United States?",
         "correct_answer": "Donald Trump",
@@ -5271,18 +4626,6 @@ export let questions = [{
     {
         "category": "Politics",
         "type": "multiple",
-        "difficulty": "hard",
-        "question": "Which of the following United States senators is known for performing a 24 hour long filibuster?",
-        "correct_answer": "Strom Thurmond",
-        "incorrect_answers": [
-            "Roy Blunt",
-            "John Barrasso",
-            "Chuck Schumer"
-        ]
-    },
-    {
-        "category": "Politics",
-        "type": "multiple",
         "difficulty": "medium",
         "question": "Who became Prime Minister of the United Kingdom in July 2016?",
         "correct_answer": "Theresa May",
@@ -5342,18 +4685,6 @@ export let questions = [{
         "category": "Politics",
         "type": "multiple",
         "difficulty": "medium",
-        "question": "Which of these is NOT one of Donald Trump's children?",
-        "correct_answer": "Julius",
-        "incorrect_answers": [
-            "Donald Jr",
-            "Ivanka",
-            "Eric"
-        ]
-    },
-    {
-        "category": "Politics",
-        "type": "multiple",
-        "difficulty": "medium",
         "question": "In United States history, how many vice presidents did Franklin D Roosevelt have during his time in office as president?",
         "correct_answer": "3",
         "incorrect_answers": [
@@ -5370,18 +4701,6 @@ export let questions = [{
         "correct_answer": "False",
         "incorrect_answers": [
             "True"
-        ]
-    },
-    {
-        "category": "Politics",
-        "type": "multiple",
-        "difficulty": "hard",
-        "question": "Which of these was an official candidate in the 2017 British General Election?",
-        "correct_answer": "Lord Buckethead",
-        "incorrect_answers": [
-            "James Francis",
-            "Robert Wimbledon",
-            "Sir Crumpetsby"
         ]
     },
     {
@@ -5622,18 +4941,6 @@ export let questions = [{
         "category": "Celebrities",
         "type": "multiple",
         "difficulty": "medium",
-        "question": "Which of these people is NOT a part of the Internet comedy group Mega64?",
-        "correct_answer": "Jon Jafari",
-        "incorrect_answers": [
-            "Rocco Botte",
-            "Derrick Acosta",
-            "Shawn Chatfield"
-        ]
-    },
-    {
-        "category": "Celebrities",
-        "type": "multiple",
-        "difficulty": "medium",
         "question": "What was the cause of death for Freddie Mercury?",
         "correct_answer": "Pneumonia",
         "incorrect_answers": [
@@ -5834,18 +5141,6 @@ export let questions = [{
     },
     {
         "category": "Celebrities",
-        "type": "multiple",
-        "difficulty": "medium",
-        "question": "Who out of these actresses is the youngest?",
-        "correct_answer": "Kiernan Shipka",
-        "incorrect_answers": [
-            "Ariel Winter",
-            "Emma Watson",
-            "Bonnie Wright"
-        ]
-    },
-    {
-        "category": "Celebrities",
         "type": "boolean",
         "difficulty": "hard",
         "question": "Lady Gaga's real name is Stefani Joanne Angelina Germanotta",
@@ -5874,18 +5169,6 @@ export let questions = [{
         "correct_answer": "False",
         "incorrect_answers": [
             "True"
-        ]
-    },
-    {
-        "category": "Celebrities",
-        "type": "multiple",
-        "difficulty": "medium",
-        "question": "In which of these TV shows did the chef Gordon Ramsay not appear?",
-        "correct_answer": "Auction Hunters",
-        "incorrect_answers": [
-            "Ramsay's Kitchen Nightmares",
-            "Hotel Hell",
-            "Hell's Kitchen"
         ]
     },
     {
@@ -6042,18 +5325,6 @@ export let questions = [{
             "Jeopardy",
             "Survivor",
             "The Bachelor"
-        ]
-    },
-    {
-        "category": "Celebrities",
-        "type": "multiple",
-        "difficulty": "medium",
-        "question": "Which of these celebrities was not a member of the Jackson 5?",
-        "correct_answer": "Bo Jackson",
-        "incorrect_answers": [
-            "Tito Jackson",
-            "Jermaine Jackson",
-            "Marlon Jackson"
         ]
     },
     {
@@ -6357,18 +5628,6 @@ export let questions = [{
     {
         "category": "Animals",
         "type": "multiple",
-        "difficulty": "hard",
-        "question": "Which of these animals is NOT a lizard?",
-        "correct_answer": "Tuatara",
-        "incorrect_answers": [
-            "Komodo Dragon",
-            "Gila Monster",
-            "Green Iguana"
-        ]
-    },
-    {
-        "category": "Animals",
-        "type": "multiple",
         "difficulty": "easy",
         "question": "Which class of animals are newts members of?",
         "correct_answer": "Amphibian",
@@ -6481,18 +5740,6 @@ export let questions = [{
     {
         "category": "Animals",
         "type": "multiple",
-        "difficulty": "hard",
-        "question": "Which of the following is another name for the 'Poecilotheria Metallica Tarantula'?",
-        "correct_answer": "Gooty",
-        "incorrect_answers": [
-            "Hopper",
-            "Silver Stripe",
-            "Woebegone"
-        ]
-    },
-    {
-        "category": "Animals",
-        "type": "multiple",
         "difficulty": "medium",
         "question": "What is the scientific name of the Common Chimpanzee?",
         "correct_answer": "Pan troglodytes",
@@ -6500,18 +5747,6 @@ export let questions = [{
             "Gorilla gorilla",
             "Pan paniscus",
             "Panthera leo"
-        ]
-    },
-    {
-        "category": "Animals",
-        "type": "multiple",
-        "difficulty": "hard",
-        "question": "Which of these is a colony of polyps and not a jellyfish?",
-        "correct_answer": "Portuguese Man of War",
-        "incorrect_answers": [
-            "Sea Wasp",
-            "Irukandji",
-            "Sea Nettle"
         ]
     },
     {
@@ -6690,52 +5925,6 @@ export let questions = [{
     {
         "category": "Vehicles",
         "type": "multiple",
-        "difficulty": "medium",
-        "question": "Which of the following is NOT a Russian car manufacturer?",
-        "correct_answer": "BYD",
-        "incorrect_answers": [
-            "Silant",
-            "Dragon",
-            "GAZ"
-        ]
-    },
-    {
-        "category": "Vehicles",
-        "type": "multiple",
-        "difficulty": "easy",
-        "question": "Which of the following car manufacturers had a war named after it?",
-        "correct_answer": "Toyota",
-        "incorrect_answers": [
-            "Honda",
-            "Ford",
-            "Volkswagen"
-        ]
-    },
-    {
-        "category": "Vehicles",
-        "type": "boolean",
-        "difficulty": "medium",
-        "question": "The Japanese Shinkansen beat the French TGV's speed record for fastest electric rail train",
-        "correct_answer": "False",
-        "incorrect_answers": [
-            "True"
-        ]
-    },
-    {
-        "category": "Vehicles",
-        "type": "multiple",
-        "difficulty": "medium",
-        "question": "Which of the following passenger jets is the longest?",
-        "correct_answer": "Boeing 747 8",
-        "incorrect_answers": [
-            "Airbus A350 1000",
-            "Airbus A330 200",
-            "Boeing 787 10"
-        ]
-    },
-    {
-        "category": "Vehicles",
-        "type": "multiple",
         "difficulty": "hard",
         "question": "The difference between the lengths of a Boeing 777 300ER and an Airbus A350 1000 is closest to:",
         "correct_answer": "01m",
@@ -6761,106 +5950,12 @@ export let questions = [{
         "category": "Vehicles",
         "type": "multiple",
         "difficulty": "medium",
-        "question": "Complete the following analogy: Audi is to Volkswagen as Infiniti is to ?",
-        "correct_answer": "Nissan",
-        "incorrect_answers": [
-            "Honda",
-            "Hyundai",
-            "Subaru"
-        ]
-    },
-    {
-        "category": "Vehicles",
-        "type": "multiple",
-        "difficulty": "medium",
-        "question": "Which of the following vehicles featured a full glass roof at base model?",
-        "correct_answer": "Renault Avantime",
-        "incorrect_answers": [
-            "Chevy Volt",
-            "Mercedes Benz A Class",
-            "Honda Odyssey"
-        ]
-    },
-    {
-        "category": "Vehicles",
-        "type": "multiple",
-        "difficulty": "medium",
-        "question": "Which of the following car models has been badge engineered (rebadged) the most?",
-        "correct_answer": "Isuzu Trooper",
-        "incorrect_answers": [
-            "Holden Monaro",
-            "Suzuki Swift",
-            "Chevy Camaro"
-        ]
-    },
-    {
-        "category": "Vehicles",
-        "type": "multiple",
-        "difficulty": "medium",
         "question": "When was Tesla founded?",
         "correct_answer": "2003",
         "incorrect_answers": [
             "2008",
             "2005",
             "2007"
-        ]
-    },
-    {
-        "category": "Vehicles",
-        "type": "multiple",
-        "difficulty": "easy",
-        "question": "What UK Train does NOT go over 125MPH?",
-        "correct_answer": "Sprinter",
-        "incorrect_answers": [
-            "Class 43",
-            "Javelin",
-            "Pendolino"
-        ]
-    },
-    {
-        "category": "Vehicles",
-        "type": "multiple",
-        "difficulty": "hard",
-        "question": "Which of these is NOT a car model produced by Malaysian car manufacturer Proton?",
-        "correct_answer": "Kelisa",
-        "incorrect_answers": [
-            "Saga",
-            "Perdana",
-            "Inspira"
-        ]
-    },
-    {
-        "category": "Vehicles",
-        "type": "multiple",
-        "difficulty": "easy",
-        "question": "Which of these companies does NOT manufacture motorcycles?",
-        "correct_answer": "Toyota",
-        "incorrect_answers": [
-            "Honda",
-            "Kawasaki",
-            "Yamaha"
-        ]
-    },
-    {
-        "category": "Vehicles",
-        "type": "boolean",
-        "difficulty": "easy",
-        "question": "The full English name of the car manufacturer BMW is Bavarian Motor Works",
-        "correct_answer": "True",
-        "incorrect_answers": [
-            "False"
-        ]
-    },
-    {
-        "category": "Vehicles",
-        "type": "multiple",
-        "difficulty": "hard",
-        "question": "Which one of these chassis codes are used by BMW 3 series?",
-        "correct_answer": "E46",
-        "incorrect_answers": [
-            "E39",
-            "E85",
-            "F10"
         ]
     },
     {
@@ -6873,18 +5968,6 @@ export let questions = [{
             "Bugatti",
             "Lamborghini",
             "McLaren"
-        ]
-    },
-    {
-        "category": "Vehicles",
-        "type": "multiple",
-        "difficulty": "medium",
-        "question": "Which car brand does NOT belong to General Motors?",
-        "correct_answer": "Ford",
-        "incorrect_answers": [
-            "Buick",
-            "Cadillac",
-            "Chevrolet"
         ]
     },
     {
@@ -6924,18 +6007,6 @@ export let questions = [{
     {
         "category": "Vehicles",
         "type": "multiple",
-        "difficulty": "medium",
-        "question": "Which one is NOT the function of engine oil in car engines?",
-        "correct_answer": "Combustion",
-        "incorrect_answers": [
-            "Lubrication",
-            "Cooling",
-            "Reduce corrosion"
-        ]
-    },
-    {
-        "category": "Vehicles",
-        "type": "multiple",
         "difficulty": "hard",
         "question": "How much horsepower is produced by the SD40 2 Locomotive?",
         "correct_answer": "3,000",
@@ -6965,18 +6036,6 @@ export let questions = [{
         "correct_answer": "True",
         "incorrect_answers": [
             "False"
-        ]
-    },
-    {
-        "category": "Vehicles",
-        "type": "multiple",
-        "difficulty": "hard",
-        "question": "Which one of the following is NOT a sub company of the Volkswagen Group?",
-        "correct_answer": "Opel",
-        "incorrect_answers": [
-            "Porsche",
-            "Bugatti",
-            "Bentley"
         ]
     },
     {
@@ -7311,18 +6370,6 @@ export let questions = [{
             "correct_answer": "False",
             "incorrect_answers": [
                 "True"
-            ]
-        },
-        {
-            "category": "Entertainment: Comics",
-            "type": "multiple",
-            "difficulty": "medium",
-            "question": "Which of the following superheros did Wonder Woman NOT have a love interest in?",
-            "correct_answer": "Green Arrow",
-            "incorrect_answers": [
-                "Superman",
-                "Batman",
-                "Steve Trevor"
             ]
         },
         {
@@ -7663,18 +6710,6 @@ export let questions = [{
             "category": "Entertainment: Comics",
             "type": "multiple",
             "difficulty": "hard",
-            "question": "Which of the following rings from the DC Comics' 'Lantern Corps' are classified as Parasitic?",
-            "correct_answer": "Indigo (Compassion)",
-            "incorrect_answers": [
-                "Green (Willpower)",
-                "White (Life)",
-                "Yellow (Fear)"
-            ]
-        },
-        {
-            "category": "Entertainment: Comics",
-            "type": "multiple",
-            "difficulty": "hard",
             "question": "What are the names of the two 'Canon fan trolls' in 'Homestuck'?",
             "correct_answer": "Mierfa Durgas and Nektan Whelan",
             "incorrect_answers": [
@@ -7778,18 +6813,6 @@ export let questions = [{
         ]
     },
     {
-        "category": "Vehicles",
-        "type": "multiple",
-        "difficulty": "medium",
-        "question": "Which of these cars is NOT considered one of the 5 Modern Supercars by Ferrari?",
-        "correct_answer": "Testarossa",
-        "incorrect_answers": [
-            "Enzo Ferrari",
-            "F40",
-            "288 GTO"
-        ]
-    },
-    {
         "category": "Animals",
         "type": "multiple",
         "difficulty": "hard",
@@ -7849,42 +6872,7 @@ export let questions = [{
             "Nicaragua"
         ]
     },
-    {
-        "category": "Politics",
-        "type": "multiple",
-        "difficulty": "medium",
-        "question": "Which of the following Argentinian presidents was elected in 2015?",
-        "correct_answer": "Mauricio Macri",
-        "incorrect_answers": [
-            "Cristina Fernandez de Kirchner",
-            "Nestor Kirchner",
-            "Juan Domingo Peron"
-        ]
-    },
-    {
-        "category": "History",
-        "type": "multiple",
-        "difficulty": "hard",
-        "question": "Which of these theoretical phycisists first predicted the existence of antimatter?",
-        "correct_answer": "Paul Dirac",
-        "incorrect_answers": [
-            "Niels Bohr",
-            "Albert Einstein",
-            "Werner Heisenberg"
-        ]
-    },
-    {
-        "category": "History",
-        "type": "multiple",
-        "difficulty": "hard",
-        "question": "Which of these positions did the astronomer and physicist Isaac Newton not hold?",
-        "correct_answer": "Surveyor to the City of London",
-        "incorrect_answers": [
-            "Professor of Mathematics",
-            "Warden of the Royal Mint",
-            "Member of Parliament"
-        ]
-    },
+
     {
         "category": "History",
         "type": "multiple",
@@ -7967,18 +6955,6 @@ export let questions = [{
             "Autonoe",
             "Carme",
             "Cephisso"
-        ]
-    },
-    {
-        "category": "Science: Mathematics",
-        "type": "multiple",
-        "difficulty": "hard",
-        "question": "The notion of a 'set that contains all sets which do not contain themselves' is a paradoxical idea attributed to which English philospher?",
-        "correct_answer": "Bertrand Russel",
-        "incorrect_answers": [
-            "Francis Bacon",
-            "John Locke",
-            "Alfred North Whitehead"
         ]
     },
     {
@@ -8149,18 +7125,7 @@ export let questions = [{
             "October 21, 1994"
         ]
     },
-    {
-        "category": "Entertainment: Books",
-        "type": "multiple",
-        "difficulty": "medium",
-        "question": "Which of the following authors was not born in England? ",
-        "correct_answer": "Arthur Conan Doyle",
-        "incorrect_answers": [
-            "Graham Greene",
-            "H G Wells",
-            "Arthur C Clarke"
-        ]
-    },
+    
     {
         "category": "Entertainment: Books",
         "type": "multiple",
@@ -8423,18 +7388,7 @@ export let questions = [{
             "Hairy Potter Sr"
         ]
     },
-    {
-        "category": "Entertainment: Books",
-        "type": "multiple",
-        "difficulty": "hard",
-        "question": "Which of these does Charlie NOT read in The Perks of Being a Wallflower?",
-        "correct_answer": "The Grapes of Wrath",
-        "incorrect_answers": [
-            "Hamlet",
-            "The Great Gatsby",
-            "Peter Pan"
-        ]
-    },
+
     {
         "category": "Entertainment: Books",
         "type": "multiple",
@@ -8607,7 +7561,7 @@ export let questions = [{
         "category": "Entertainment: Books",
         "type": "multiple",
         "difficulty": "medium",
-        "question": "Which of the following was the author of 'Username Evie'?",
+        "question": "Who was the author of 'Username Evie'?",
         "correct_answer": "Joe Sugg",
         "incorrect_answers": [
             "Zoe Sugg",
@@ -8747,18 +7701,6 @@ export let questions = [{
         "category": "Entertainment: Film",
         "type": "multiple",
         "difficulty": "easy",
-        "question": "Which of the following movies was not based on a novel by Stephen King? ",
-        "correct_answer": "The Thing",
-        "incorrect_answers": [
-            "Carrie",
-            "Misery",
-            "The Green Mile"
-        ]
-    },
-    {
-        "category": "Entertainment: Film",
-        "type": "multiple",
-        "difficulty": "easy",
         "question": "Daniel Radcliffe became a global star in the film industry due to his performance in which film franchise?",
         "correct_answer": "Harry Potter",
         "incorrect_answers": [
@@ -8849,18 +7791,7 @@ export let questions = [{
             "Wes Anderson"
         ]
     },
-    {
-        "category": "Entertainment: Film",
-        "type": "multiple",
-        "difficulty": "medium",
-        "question": "Which of the following James Bond villains is not affiliated with the SPECTRE organization?",
-        "correct_answer": "Auric Goldfinger",
-        "incorrect_answers": [
-            "Dr Julius No",
-            "Rosa Klebb",
-            "Emilio Largo"
-        ]
-    },
+
     {
         "category": "Entertainment: Film",
         "type": "multiple",
@@ -8905,18 +7836,6 @@ export let questions = [{
             "Goldfinger",
             "From Russia With Love",
             "Thunderball"
-        ]
-    },
-    {
-        "category": "Entertainment: Film",
-        "type": "multiple",
-        "difficulty": "easy",
-        "question": "Which of these movies did Jeff Bridges not star in?",
-        "correct_answer": "The Hateful Eight",
-        "incorrect_answers": [
-            "Tron: Legacy",
-            "The Giver",
-            "True Grit"
         ]
     },
     {
@@ -8980,30 +7899,6 @@ export let questions = [{
     {
         "category": "Entertainment: Film",
         "type": "multiple",
-        "difficulty": "medium",
-        "question": "In The Lord of the Rings: The Fellowship of the Ring, which one of the following characters from the book was left out of the film?",
-        "correct_answer": "Tom Bombadil",
-        "incorrect_answers": [
-            "Strider",
-            "Barliman Butterbur",
-            "Celeborn"
-        ]
-    },
-    {
-        "category": "Entertainment: Film",
-        "type": "multiple",
-        "difficulty": "medium",
-        "question": "In the 1999 movie Fight Club, which of these is not a rule of the 'fight club'?",
-        "correct_answer": "Always wear a shirt",
-        "incorrect_answers": [
-            "You do not talk about FIGHT CLUB",
-            "Only two guys to a fight",
-            "Fights will go on as long as they have to"
-        ]
-    },
-    {
-        "category": "Entertainment: Film",
-        "type": "multiple",
         "difficulty": "easy",
         "question": "What was the first monster to appear alongside Godzilla?",
         "correct_answer": "Anguirus",
@@ -9023,18 +7918,6 @@ export let questions = [{
             "Edwin Neal",
             "John Dugan",
             "Joe Bill Hogan"
-        ]
-    },
-    {
-        "category": "Entertainment: Film",
-        "type": "multiple",
-        "difficulty": "easy",
-        "question": "In the movie Gremlins, after what time of day should you not feed Mogwai?",
-        "correct_answer": "Midnight",
-        "incorrect_answers": [
-            "Evening",
-            "Morning",
-            "Afternoon"
         ]
     },
     {
@@ -9158,18 +8041,6 @@ export let questions = [{
     {
         "category": "Entertainment: Film",
         "type": "multiple",
-        "difficulty": "hard",
-        "question": "Which of the following films was directed by Ivan Reitman, written by Gary Ross, featured Kevin Kline, and was released in 1993?",
-        "correct_answer": "Dave",
-        "incorrect_answers": [
-            "John",
-            "Will",
-            "Carl"
-        ]
-    },
-    {
-        "category": "Entertainment: Film",
-        "type": "multiple",
         "difficulty": "medium",
         "question": "What is Lilo's last name from Lilo and Stitch?",
         "correct_answer": "Pelekai",
@@ -9285,30 +8156,6 @@ export let questions = [{
             "November 6th",
             "November 4th",
             "September 5th"
-        ]
-    },
-    {
-        "category": "Entertainment: Film",
-        "type": "multiple",
-        "difficulty": "medium",
-        "question": "Which of the following actors does not play a role in the movie 'The Usual Suspects?'",
-        "correct_answer": "Steve Buscemi",
-        "incorrect_answers": [
-            "Kevin Spacey",
-            "Benicio Del Toro",
-            "Gabriel Byrne"
-        ]
-    },
-    {
-        "category": "Entertainment: Film",
-        "type": "multiple",
-        "difficulty": "medium",
-        "question": "Which actor plays the role of the main antagonist in the 2011 movie 'Tower Heist?'",
-        "correct_answer": "Alan Alda",
-        "incorrect_answers": [
-            "Eddie Murphy",
-            "Alec Baldwin",
-            "Kevin Nealon"
         ]
     },
     {
@@ -9476,18 +8323,6 @@ export let questions = [{
     {
         "category": "History",
         "type": "multiple",
-        "difficulty": "hard",
-        "question": "Which one of these rulers did not belong to the Habsburg dynasty?",
-        "correct_answer": "Philip V",
-        "incorrect_answers": [
-            "Charles V",
-            "Philip II",
-            "Francis Joseph"
-        ]
-    },
-    {
-        "category": "History",
-        "type": "multiple",
         "difficulty": "medium",
         "question": "Where and when was the first cardboard box made for industrial use?",
         "correct_answer": "England, 1817",
@@ -9582,23 +8417,11 @@ export let questions = [{
         ]
     },
     {
-        "category": "Entertainment: Video Games",
-        "type": "multiple",
-        "difficulty": "medium",
-        "question": "Which one of these games wasn't released in 2016?",
-        "correct_answer": "Metal Gear Solid V",
-        "incorrect_answers": [
-            "Tom Clancy's The Division",
-            "Killing Floor 2",
-            "Hitman"
-        ]
-    },
-    {
         "category": "Entertainment: Film",
         "type": "multiple",
         "difficulty": "medium",
         "question": "In Back to the Future Part II, Marty and Dr Emmett Brown go to which future date?",
-        "correct_answer": "October 21, 2015",
+        "correct_answer": "October 21 2015",
         "incorrect_answers": [
             "August 28, 2015",
             "July 20, 2015",
@@ -9613,18 +8436,6 @@ export let questions = [{
         "correct_answer": "False",
         "incorrect_answers": [
             "True"
-        ]
-    },
-    {
-        "category": "Mythology",
-        "type": "multiple",
-        "difficulty": "easy",
-        "question": "Which of these mythological creatures is said to be half man and half horse?",
-        "correct_answer": "Centaur",
-        "incorrect_answers": [
-            "Minotaur",
-            "Pegasus",
-            "Gorgon"
         ]
     },
     {
@@ -9764,22 +8575,10 @@ export let questions = [{
         ]
     },
     {
-        "category": "Entertainment: Video Games",
-        "type": "multiple",
-        "difficulty": "medium",
-        "question": "The walls of the Goldenrod City Gym in 'Pok&eacute;mon Gold and Silver' are arranged in the shape of which Pok&eacute;mon?",
-        "correct_answer": "Clefairy",
-        "incorrect_answers": [
-            "Bulbasaur",
-            "Pikachu",
-            "Pidgey"
-        ]
-    },
-    {
         "category": "Entertainment: Film",
         "type": "multiple",
         "difficulty": "hard",
-        "question": "Which of the following films was directed by Ivan Reitman, written by Gary Ross, featured Kevin Kline, and was released in 1993?",
+        "question": "Which film was directed by Ivan Reitman, written by Gary Ross, featured Kevin Kline, and was released in 1993?",
         "correct_answer": "Dave",
         "incorrect_answers": [
             "John",
@@ -9836,18 +8635,6 @@ export let questions = [{
         ]
     },
     {
-        "category": "Sports",
-        "type": "multiple",
-        "difficulty": "easy",
-        "question": "Who won the premier league title in the 2015 2016 season following a fairy tale run?",
-        "correct_answer": "Leicester City",
-        "incorrect_answers": [
-            "Tottenham Hotspur",
-            "Watford",
-            "Stoke City"
-        ]
-    },
-    {
         "category": "Entertainment: Books",
         "type": "multiple",
         "difficulty": "medium",
@@ -9857,18 +8644,6 @@ export let questions = [{
             "Ian Cameron Esslemont",
             "George R R Martin",
             "J R R Tolkien"
-        ]
-    },
-    {
-        "category": "General Knowledge",
-        "type": "multiple",
-        "difficulty": "hard",
-        "question": "Which of these cities does NOT have a United States Minting location?",
-        "correct_answer": "St Louis, MO",
-        "incorrect_answers": [
-            "San Fransisco, CA",
-            "Philidelphia, PA",
-            "West Point, NY"
         ]
     },
     {

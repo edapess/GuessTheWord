@@ -40,7 +40,7 @@ let livesCount = 10
 let lives = createDOM('p', ROOT, 'lives',`` )
 //need You have '987654321' lives with auto
 let comments = () => {
-    console.log(INPUT_BOX.innerText);
+    lives.innerText = `You have ${livesCount} lives`
 }
 //on click
 for (let i = 0; i < buttons.length; i++) {
@@ -50,13 +50,13 @@ for (let i = 0; i < buttons.length; i++) {
             if (answerArr[l] === gues) {
                 inputArr[l].innerText = `${gues}`
                 buttons[i].disabled = true
-                if(!INPUT_BOX.innerText.includes('_')){
-                    comments()
+                if (!INPUT_BOX.innerText.includes('_')) {
+
                 }
             } else {
                 buttons[i].disabled = true
-                livesCount--
-            }           
+                
+                }
+            } //loop end
         }
     }
-}
