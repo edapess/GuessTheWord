@@ -3275,7 +3275,7 @@ export let questions = [{
         "type": "multiple",
         "difficulty": "medium",
         "question": "The Norse god Odin has two pet crows named 'Huginn' and 'Muninn'  What do their names mean?",
-        "correct_answer": "Thought & Memory",
+        "correct_answer": "Thought and Memory",
         "incorrect_answers": [
             "Power & Peace",
             "War & Learning",
@@ -6471,7 +6471,7 @@ export let questions = [{
             "type": "multiple",
             "difficulty": "medium",
             "question": "Who authored The Adventures of Tintin?",
-            "correct_answer": "Herg&eacute;",
+            "correct_answer": "Herge",
             "incorrect_answers": [
                 "EP Jacobs",
                 "Rin Tin Tin",

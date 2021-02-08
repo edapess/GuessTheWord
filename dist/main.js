@@ -37,7 +37,8 @@ let inputArr = Array.from(document.querySelectorAll('.input')).map((v) => v)
 //get btns add listener
 let buttons = document.querySelectorAll('.myBtns')
 let livesCount = 10
-let lives = createDOM('p', ROOT, 'lives',`` )
+let lives = createDOM('p', ROOT, 'lives', ``)
+lives.innerText = `You have ${livesCount} lives`
 //need You have '987654321' lives with auto
 let comments = () => {
     lives.innerText = `You have ${livesCount} lives`
@@ -51,12 +52,25 @@ for (let i = 0; i < buttons.length; i++) {
                 inputArr[l].innerText = `${gues}`
                 buttons[i].disabled = true
                 if (!INPUT_BOX.innerText.includes('_')) {
-
+                    lives.innerText = 'You WIN'
                 }
+
             } else {
                 buttons[i].disabled = true
-                
+                livesCount--
+                comments()
+                if (livesCount == 0) {
+                    lives.innerText = 'You LOOSE'
+                    for (let i = 0; i < buttons.length; i++) {
+                        buttons[i].disabled = true
+                    }
                 }
-            } //loop end
-        }
+                // console.log(livesCount);
+                break;
+            }
+
+        } //loop end
+
     }
+
+}
