@@ -22,8 +22,7 @@ let numbers = new Array(10).fill(1).map((_, i) => String.fromCharCode(48 + i))
 let alphabet = lowLetters.concat(numbers)
 //letter buttons
 alphabet.forEach(letter => {
-    let btn = createDOM('button', CONTAINER, 'myBtns', letter)
-    btn.innerText = letter
+    createDOM('button', CONTAINER, 'myBtns', letter)
 })
 // random answer
 let answer = randomIndex.correct_answer.toLowerCase()
@@ -43,34 +42,70 @@ lives.innerText = `You have ${livesCount} lives`
 let comments = () => {
     lives.innerText = `You have ${livesCount} lives`
 }
+let disableButtons = () => {
+    for (let b = 0; b < buttons.length; b++) {
+        buttons[b].disabled = true
+    }
+}
 //on click
-for (let i = 0; i < buttons.length; i++) {
-    buttons[i].onclick = () => {
-        let gues = buttons[i].innerText
-        for (let l = 0; l < answerArr.length; l++) {
-            if (answerArr[l] === gues) {
-                inputArr[l].innerText = `${gues}`
-                buttons[i].disabled = true
-                if (!INPUT_BOX.innerText.includes('_')) {
-                    lives.innerText = 'You WIN'
+buttons.forEach(btn => {
+    btn.onclick = () => {
+        let gues = btn.innerText
+        if (answerArr.includes(gues)) {
+            for (let i = 0; i < answerArr.length; i++) {
+                if (answerArr[i] === gues) {
+                    inputArr[i].innerText = `${gues}`
+                    btn.disabled = true
                 }
-
-            } else {
-                buttons[i].disabled = true
-                livesCount--
-                comments()
-                if (livesCount == 0) {
-                    lives.innerText = 'You LOOSE'
-                    for (let i = 0; i < buttons.length; i++) {
-                        buttons[i].disabled = true
-                    }
-                }
-                // console.log(livesCount);
-                break;
             }
-
-        } //loop end
+            //loop ends
+            if (!INPUT_BOX.innerText.includes('_')) {
+                lives.innerText = 'You WIN'
+                disableButtons()
+            }
+        } else {
+            btn.disabled = true
+            livesCount--
+            if (livesCount <= 0) {
+                disableButtons()
+                lives.innerText = 'You Loose'
+            } else {
+                comments()
+            }
+        }
 
     }
 
-}
+})
+
+
+// for (let i = 0; i < buttons.length; i++) {
+//     buttons[i].onclick = () => {
+//         let gues = buttons[i].innerText
+//         for (let l = 0; l < answerArr.length; l++) {
+//             if (answerArr[l] === gues) {
+//                 inputArr[l].innerText = `${gues}`
+//                 buttons[i].disabled = true
+//                 if (!INPUT_BOX.innerText.includes('_')) {
+//                     lives.innerText = 'You WIN'
+//                 }
+
+//             } else {
+//                 buttons[i].disabled = true
+//                 if (livesCount = livesCount-answerArr.length) {
+//                     livesCount = livesCount-1
+//                 }
+//                 comments()
+//                 if (livesCount == 0) {
+//                     lives.innerText = 'You LOOSE'
+//                     for (let i = 0; i < buttons.length; i++) {
+//                         buttons[i].disabled = true
+//                     }
+//                 }
+//             }
+
+//         } //loop end
+
+//     }
+
+// }
