@@ -10,6 +10,8 @@ const ROOT = document.getElementById('root')
 let randomIndex = questions[Math.floor(Math.random() * questions.length)]
 //random category title
 const CATEGORY = createDOM('div', ROOT, 'category', `Answer is from "${randomIndex.category}" category`)
+//spaceman drawing
+let SPACEMAN = createDOM('div', ROOT, 'spaceman', '')
 //creat question line
 const QUESTION = createDOM('p', ROOT, 'question', randomIndex.question)
 //create input box for dashes
@@ -47,6 +49,40 @@ let disableButtons = () => {
         buttons[b].disabled = true
     }
 }
+
+let spacemanDrawing = () => {
+    if (livesCount == 9) {
+        SPACEMAN.innerText = "9"
+    }
+    if (livesCount == 8) {
+        SPACEMAN.innerText = "8"
+    }
+    if (livesCount == 7) {
+        SPACEMAN.innerText = "7"
+    }
+    if (livesCount == 6) {
+        SPACEMAN.innerText = "6"
+    }
+    if (livesCount == 5) {
+        SPACEMAN.innerText = "5"
+    }
+    if (livesCount == 4) {
+        SPACEMAN.innerText = "4"
+    }
+    if (livesCount == 3) {
+        SPACEMAN.innerText = "3"
+    }
+    if (livesCount == 2) {
+        SPACEMAN.innerText = "2"
+    }
+    if (livesCount == 1) {
+        SPACEMAN.innerText = "1"
+    }
+    if (livesCount <= 0) {
+        SPACEMAN.innerText = "CHKA"
+    }
+}
+
 //on click
 buttons.forEach(btn => {
     btn.onclick = () => {
@@ -66,6 +102,7 @@ buttons.forEach(btn => {
         } else {
             btn.disabled = true
             livesCount--
+            spacemanDrawing()
             if (livesCount <= 0) {
                 disableButtons()
                 lives.innerText = 'You Loose'
@@ -73,39 +110,5 @@ buttons.forEach(btn => {
                 comments()
             }
         }
-
     }
-
 })
-
-
-// for (let i = 0; i < buttons.length; i++) {
-//     buttons[i].onclick = () => {
-//         let gues = buttons[i].innerText
-//         for (let l = 0; l < answerArr.length; l++) {
-//             if (answerArr[l] === gues) {
-//                 inputArr[l].innerText = `${gues}`
-//                 buttons[i].disabled = true
-//                 if (!INPUT_BOX.innerText.includes('_')) {
-//                     lives.innerText = 'You WIN'
-//                 }
-
-//             } else {
-//                 buttons[i].disabled = true
-//                 if (livesCount = livesCount-answerArr.length) {
-//                     livesCount = livesCount-1
-//                 }
-//                 comments()
-//                 if (livesCount == 0) {
-//                     lives.innerText = 'You LOOSE'
-//                     for (let i = 0; i < buttons.length; i++) {
-//                         buttons[i].disabled = true
-//                     }
-//                 }
-//             }
-
-//         } //loop end
-
-//     }
-
-// }
