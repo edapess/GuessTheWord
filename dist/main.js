@@ -4,16 +4,22 @@ import {
 import {
     questions
 } from './questionAnswer.js'
+
+import {
+    man,
+    ufo,
+    light
+} from './spaceman.js'
 // get root
 const ROOT = document.getElementById('root')
 //random question-Object index from array of questions
-let randomIndex = questions[Math.floor(Math.random() * questions.length)]
+let random = questions[Math.floor(Math.random() * questions.length)]
 //random category title
-const CATEGORY = createDOM('div', ROOT, 'category', `Answer is from "${randomIndex.category}" category`)
+const CATEGORY = createDOM('div', ROOT, 'category', `Answer is from "${random.category}" category`)
 //spaceman drawing
 let SPACEMAN = createDOM('div', ROOT, 'spaceman', '')
 //creat question line
-const QUESTION = createDOM('p', ROOT, 'question', randomIndex.question)
+const QUESTION = createDOM('p', ROOT, 'question', random.question)
 //create input box for dashes
 const INPUT_BOX = createDOM('div', ROOT, 'input-box', '')
 //container
@@ -27,7 +33,7 @@ alphabet.forEach(letter => {
     createDOM('button', CONTAINER, 'myBtns', letter)
 })
 // random answer
-let answer = randomIndex.correct_answer.toLowerCase()
+let answer = random.correct_answer.toLowerCase()
 let answerArr = answer.split('')
 //creat inputs by answer.length
 for (let i = 0; i < answer.length; i++) {
@@ -51,36 +57,7 @@ let disableButtons = () => {
 }
 
 let spacemanDrawing = () => {
-    if (livesCount == 9) {
-        SPACEMAN.innerText = "9"
-    }
-    if (livesCount == 8) {
-        SPACEMAN.innerText = "8"
-    }
-    if (livesCount == 7) {
-        SPACEMAN.innerText = "7"
-    }
-    if (livesCount == 6) {
-        SPACEMAN.innerText = "6"
-    }
-    if (livesCount == 5) {
-        SPACEMAN.innerText = "5"
-    }
-    if (livesCount == 4) {
-        SPACEMAN.innerText = "4"
-    }
-    if (livesCount == 3) {
-        SPACEMAN.innerText = "3"
-    }
-    if (livesCount == 2) {
-        SPACEMAN.innerText = "2"
-    }
-    if (livesCount == 1) {
-        SPACEMAN.innerText = "1"
-    }
-    if (livesCount <= 0) {
-        SPACEMAN.innerText = "CHKA"
-    }
+   
 }
 
 //on click
