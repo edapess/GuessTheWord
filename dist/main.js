@@ -55,11 +55,9 @@ let disableButtons = () => {
         buttons[b].disabled = true
     }
 }
-
 let spacemanDrawing = () => {
    
 }
-
 //on click
 buttons.forEach(btn => {
     btn.onclick = () => {
